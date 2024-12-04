@@ -21,26 +21,10 @@ Example call with data
         }'
 
 
-{
-    "recipient": "destinatario@example.com",
-    "subject": "Welcome to MythosMailer",
-    "template_name": "welcome.html",
-    "variables": {
-        "name": "Juan",
-        "welcome_message": "We are thrilled to have you here!",
-        "footer": "Thanks for joining us. MythosMailer Team."
-    },
-    "language": "en",
-    "test_mode": true
-}
+### Run tests
+
+        pytest --cov=.
 
 
-
-
-Run tests
-
-pytest --cov=.
-
-
-Run app
-python app.py
+### Run app
+        python app.py
