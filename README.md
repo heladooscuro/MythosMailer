@@ -3,7 +3,7 @@ Simple API for storing and send mails by making API calls
 
 
 
-###Example call with data 
+## Example call with data 
 
         curl -X POST http://127.0.0.1:5000/send-email \
         -H "Content-Type: application/json" \
@@ -21,10 +21,10 @@ Simple API for storing and send mails by making API calls
         }'
 
 
-###Run tests
+## Run tests
 
         pytest --cov=.
 
 
-###Run app
+## Run app
         python app.py
